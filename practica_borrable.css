@@ -1,0 +1,61 @@
+body{
+    margin:0;
+}
+.navegacion{
+    width: 100%;
+    height: 70px;
+    background-color: darkblue;
+    text-align: center;
+    position: fixed;
+    z-index: 30;
+}
+.item-nav{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+}
+.conteiner{
+    height: 300px;
+    background-color: blue;
+    position: relative;
+}
+.box-fixed{
+    height: 60px;
+    width: 200px;
+    border: 2px solid black;
+    right: 0;
+    border-right: 0;
+    top: 150px;
+    position: fixed;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 20px black;
+}
+h2{
+    margin: 0;
+    font-size: 25px;
+}
+p{
+    margin: 0;
+    font-size: 15px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color:blueviolet
+}
+.sticky--box{
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    position: sticky;
+    top: 100px;
+}
+.sticky-first{
+    background-color: blue;
+    top: 130px;
+}
+.sticky-last{
+    background-color: blue;
+    top: 170px;
+}
